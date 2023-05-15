@@ -1,0 +1,85 @@
+body.menu{
+    background-color: darkviolet;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color:fuchsia;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+.titulo-principal {
+    background-color: #f9ebfe;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+
+.introduccion {
+    background-color:#333;
+    text-align: center;
+    padding: 30px;
+    color: rgb(255, 189, 253);
+    font-size: 17px;;
+}
+
+.volver {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+}
+  
+.contenido {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    font-size: 16px;
+    line-height: 1.5; 
+}
+
+footer {
+    background-color: #e97474; /* establecemos un color de fondo para el footer */
+    padding: 13px; /* agregamos un poco de espacio alrededor del contenido */
+    text-align: center; /* centramos el contenido horizontalmente */
+    font-size: 14px; /* establecemos un tamaño de fuente más pequeño para el footer */
+}
+
+.boton-practica {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.boton-practica:hover {
+  background-color: #45a049;
+}
